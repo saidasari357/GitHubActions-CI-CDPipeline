@@ -1,0 +1,25 @@
+{
+  "name": "githubproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saidasari357/GitHubActions-CI-CDPipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saidasari357/GitHubActions-CI-CDPipeline/issues"
+  },
+  "homepage": "https://github.com/saidasari357/GitHubActions-CI-CDPipeline#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
