@@ -6,3 +6,9 @@ jobs:
     steps:
       - name: Printing a Message
         run: echo "Hello, World!"
+      - name: Show GitHub Workspace
+        run: echo "${{ github.workspace }}"
+      - name: Show Runner OS
+        run: echo "${{ runner.os}}"
+      - name: Show Runner Temp
+        run: echo "${{ github.repository }}"
